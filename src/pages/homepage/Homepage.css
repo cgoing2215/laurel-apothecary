@@ -2,7 +2,7 @@
     background-image: url('./assets/homepage-hero-mobile.png');
     background-size: cover;
     height: 70vh;
-    padding: 1.5rem 1rem 2rem 1rem;
+    padding: 1.5rem 1rem 3rem 1rem;
     color: white;
 }
 
@@ -22,7 +22,7 @@
 
 .hero-container h2 {
     font-family: 'Abhaya Libre', serif;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0.285rem;
@@ -30,7 +30,7 @@
 }
 
 .homepage-about-container {
-    margin: 4rem 0rem;
+    margin: 4rem .5rem;
 }
 
 .homepage-about-headline {
@@ -46,3 +46,45 @@
     width: 75%;
     height: auto;
 }
+
+.homepage-about-text p {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: .85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; 
+    letter-spacing: 0.125rem;
+    margin: 1rem;
+    text-align: left;
+}
+
+/*-- OFFERINGS SECTION --*/
+
+.homepage-offerings-headline {
+    background: rgba(86, 74, 154, 0.26);
+    color: rgba(198, 195, 214, 0.874);
+    font-family: Abhaya Libre;
+    font-size: 4.25rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    padding: 1.75rem 1rem;
+}
+
+.homepage-offerings-gallery {
+    background-image: url('./assets/offerings-gallery-background-img.png');
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    display:grid;
+    grid-template-columns: 45% 45%;
+    grid-row: auto auto;
+    grid-column-gap: 10%;
+    grid-row-gap: 10%;
+}
+
+.homepage-offerings-gallery h5 {
+    font-weight: 400;
+}
+

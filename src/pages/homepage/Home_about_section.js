@@ -10,18 +10,22 @@ function Home_about_section() {
       <img src={homeaboutimage} alt='lauren acone headshot' className='homepage-about-headshot'/>
       <div className='homepage-about-text'>
         <p>
-          Health is a word that gets thrown round quite often 
-          in many different circles. Whether it’s at work, with 
-          friends, at a doctors office or at home with family; 
-          it is one of the most brought up conversation topics, 
-          usually, in the most “unhealthy” way. To me, health is 
-          multitiered and my journey with what healthy for my body 
-          has been a roller-coaster to say the least.
+          Health is a word that gets thrown around often.
+          It's one of the most popular conversation topics at the moment, and
+          is frequently discussed in too simple - or “unhealthy” - of a way, 
+          leaving out key elements to what makes up a full person. 
+         </p>
+         <p> 
+          To me, health should be balanced and all-encompassing, weaving in an 
+          ongoing dialogue of creative thought and care. 
         </p>
         <p>
-          I truly believe people are sent to earth for different reasons
-          and mine is to help individuals navigate this crazy thing we 
-          call life and become our best selves. So, how can I help you?
+          My body's journey with health has been one of twists and turns. Through
+          my own experience, I've seen the complexities and at times 
+          abstract nature of health and how to most effectively nurture it.
+          I believe people are sent to earth for different reasons,
+          and mine has been to help people navigate this crazy thing we 
+          call life, and become their true best selves. 
         </p>
       </div>
     </div>
