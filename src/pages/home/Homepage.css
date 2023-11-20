@@ -30,7 +30,7 @@
 }
 
 .homepage-about-container {
-    margin: 4rem .5rem;
+    margin: 4rem .35rem;
 }
 
 .homepage-about-headline {
@@ -40,10 +40,11 @@
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.3325rem;
+    margin-bottom: 2.5rem;
 }
 
 .homepage-about-headshot {
-    width: 75%;
+    width: 60%;
     height: auto;
 }
 
@@ -55,21 +56,21 @@
     font-weight: 400;
     line-height: 2rem; 
     letter-spacing: 0.125rem;
-    margin: 1rem;
+    margin: 1rem 1.5rem;
     text-align: left;
 }
 
 /*-- OFFERINGS SECTION --*/
 
 .homepage-offerings-headline {
-    background: rgba(86, 74, 154, 0.26);
-    color: rgba(198, 195, 214, 0.874);
+    background:rgba(174, 171, 196, 0.587);
+    color: rgba(207, 206, 214, 0.874);
     font-family: Abhaya Libre;
     font-size: 4.25rem;
     font-weight: 400;
     text-align: left;
     margin: 0;
-    padding: 1.75rem 1rem;
+    padding: 2.15rem 1rem;
 }
 
 .homepage-offerings-gallery {
@@ -86,5 +87,25 @@
 
 .homepage-offerings-gallery h5 {
     font-weight: 400;
+}
+
+.homepage-offerings-button-container {
+    background: rgba(174, 171, 196, 0.587);
+}
+
+.homepage-offerings-button-container button {
+    border: 2px solid rgba(102, 94, 147, 0.00);
+    background: #59556B;
+    width: 13rem;
+    height: 2.75rem;
+    margin: 2.5rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: .9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.8%; /* 2.18213rem */
+    letter-spacing: 0.2rem;
 }
 

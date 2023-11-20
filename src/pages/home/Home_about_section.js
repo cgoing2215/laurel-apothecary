@@ -25,7 +25,7 @@ function Home_about_section() {
           abstract nature of health and how to most effectively nurture it.
           I believe people are sent to earth for different reasons,
           and mine has been to help people navigate this crazy thing we 
-          call life, and become their true best selves. 
+          call life, and become their best, healthiest selves. 
         </p>
       </div>
     </div>

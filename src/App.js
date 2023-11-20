@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "./components/Layout";
-import Homepage from "./pages/homepage/Homepage";
-import About from "./pages/About";
-import Services from "./pages/Services";
-import Recommendations from "./pages/Recommendations";
-import Contact from "./pages/Contact";
+import Homepage from "./pages/home/Homepage";
+import About from "./pages/about/About";
+import Services from "./pages/services/Services";
+import Recommendations from "./pages/recommendations/Recommendations";
+import Contact from "./pages/contact/Contact";
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

@@ -24,6 +24,9 @@ function Homepage_offerings_section() {
           <h5>Wellness Coaching</h5>
         </div>
       </div>
+      <div className='homepage-offerings-button-container'>
+        <button>LEARN MORE</button>
+      </div>
     </div>
   )
 }
