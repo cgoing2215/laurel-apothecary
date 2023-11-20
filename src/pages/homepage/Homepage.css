@@ -1,30 +1,48 @@
 .hero-container {
     background-image: url('./assets/homepage-hero-mobile.png');
-    background-size: auto;
+    background-size: cover;
     height: 70vh;
     padding: 1.5rem 1rem 2rem 1rem;
     color: white;
 }
 
 .hero-header {
-    width: 80%;
+    width: 90%;
     flex-shrink: 0;
 }
 
 .hero-container h1 {
     font-family: 'Abhaya Libre', serif;
-    font-size: 3.15rem;
-    font-style: normal;
+    font-size: 3.25rem;
     font-weight: 400;
     line-height: 105.8%;
     text-align: left;
+    margin: 2rem 1rem;
 }
 
 .hero-container h2 {
     font-family: 'Abhaya Libre', serif;
     font-size: 1.75rem;
-    font-style: normal;
     font-weight: 400;
-    line-height: 105.8%;
+    text-align: left;
     letter-spacing: 0.285rem;
+    margin: 2rem 3rem;
+}
+
+.homepage-about-container {
+    margin: 4rem 0rem;
+}
+
+.homepage-about-headline {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.3325rem;
+}
+
+.homepage-about-headshot {
+    width: 75%;
+    height: auto;
 }
