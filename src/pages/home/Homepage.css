@@ -74,7 +74,7 @@
 }
 
 .homepage-offerings-gallery {
-    background-image: url('./assets/offerings-gallery-background-img.png');
+    background-image: url('./assets/homepage-offerings-gallery-background-img.png');
     background-size: cover;
     height: 70vh;
     color: white;
@@ -105,7 +105,53 @@
     font-size: .9rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 105.8%; /* 2.18213rem */
+    line-height: 105.8%;
     letter-spacing: 0.2rem;
 }
 
+/*-- CONNECT SECTION --*/
+
+.homepage-connect-container {
+    background:rgba(158, 154, 191, 0.587);
+}
+
+.homepage-connect-headline  {
+    background:rgba(158, 154, 191, 0.587);
+    color: rgba(207, 206, 214, 0.874);
+    font-family: Abhaya Libre;
+    font-size: 4.25rem;
+    font-weight: 400;
+    text-align: right;
+    margin: 0;
+    padding: 2.15rem 1rem;
+}
+
+.homepage-connect-image-container {
+    background-image: url('./assets/homepage-connect-section-img.png');
+    background-size: cover;
+    border: .5rem solid rgba(193, 162, 160, 0.28);
+    font-family: Quicksand;
+    height: 30rem;
+    width: 70%;
+    margin: 10% 15%;
+}
+
+.homepage-connect-image-container h3 {
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.homepage-connect-image-container button {
+    border: 2px solid rgba(57, 55, 70, 0.00);
+    background: #59556B;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.15rem;
+    font-family: Quicksand;
+    font-weight: lighter;
+    line-height: 105.8%;
+    letter-spacing: 0.25rem;
+    height: 2rem;
+}
