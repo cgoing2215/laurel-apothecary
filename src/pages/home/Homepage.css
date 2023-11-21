@@ -32,8 +32,8 @@
 /*-- ABOUT SECTION --*/
 
 .homepage-about-container {
-    margin: 3rem .35rem 0 .35rem;
-    border-bottom: .25rem solid rgba(169, 142, 142, 0.386);
+    padding: 4rem .35rem 0 .35rem;
+    background: linear-gradient(rgba(58, 45, 67, 0.591), rgb(101, 97, 122));
 }
 
 .homepage-about-headline {
@@ -43,18 +43,16 @@
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.3325rem;
-    margin-bottom: 2.5rem;
     text-align: left;
-    margin: .5rem 1.5rem 0rem 1.5rem;
+    margin: .5rem 1.5rem 2.5rem 1.5rem;
     position: absolute;
     z-index: 100;
 }
 
 .homepage-about-headshot {
-    width: 65%;
-    max-width: 18rem;
+    width: 70%;
+    max-width: 20rem;
     height: auto;
-    left: 15%;
     margin-top: 5rem;
     position: relative;
 }
@@ -66,29 +64,26 @@
 .homepage-about-text p {
     color: #FFF;
     font-family: Quicksand;
-    font-size: .85rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2rem; 
     letter-spacing: 0.125rem;
-    margin: 1rem 1.5rem;
+    margin: 1.75rem 2rem 1.5rem 2rem;
     text-align: left;
 }
 
 /*-- OFFERINGS SECTION --*/
 
-.homepage-offerings-container {
-}
-
 .homepage-offerings-headline {
-    background:rgba(174, 171, 196, 0.587);
-    color: rgba(207, 206, 214, 0.874);
+    background: linear-gradient(rgb(101, 97, 122), rgba(174, 161, 185, 0.573));
+    color: rgba(227, 225, 235, 0.947);
     font-family: Abhaya Libre;
     font-size: 5rem;
     font-weight: 400;
     text-align: left;
     margin: 0;
-    padding: 2.15rem .5rem;
+    padding: 2.15rem 1rem;
 }
 
 .homepage-offerings-gallery {
@@ -107,22 +102,20 @@
     font-weight: 400;
 }
 
-.offering-tile {
-}
-
 .offering-tile img {
     height: 12rem;
     width: 12rem;
     border-radius: 10%;
+    filter: saturate(50%);
 }
 
 .homepage-offerings-button-container {
-    background: rgba(174, 171, 196, 0.587);
+    background: rgba(94, 91, 122, 0.587);
 }
 
 .homepage-offerings-button-container button {
     border: 2px solid rgba(102, 94, 147, 0.00);
-    background: #59556B;
+    background: rgba(46, 44, 59, 0.587);
     width: 13rem;
     height: 2.75rem;
     margin: 1.75rem;
@@ -138,6 +131,7 @@
 
 .homepage-connect-container {
     background: linear-gradient( rgba(94, 91, 122, 0.587), rgb(174, 161, 185));
+    margin-bottom: 0;
 }
 
 .homepage-connect-headline  {
@@ -147,7 +141,7 @@
     font-weight: 400;
     text-align: right;
     margin: 0;
-    padding: 2.15rem .5rem;
+    padding: 2.15rem 1rem;
 }
 
 .homepage-connect-image-container {
@@ -155,9 +149,9 @@
     background-size: cover;
     border: .5rem solid rgba(193, 162, 160, 0.28);
     font-family: Quicksand;
-    height: 30rem;
+    height: 38rem;
     width: 70%;
-    margin: 10% 15%;
+    margin: 0 15%;
 }
 
 .homepage-connect-image-container h3 {
