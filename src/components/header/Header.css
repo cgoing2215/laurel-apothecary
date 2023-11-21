@@ -2,11 +2,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 7rem;
+    height: 5.75rem;
 }
 
 .logo-img {
-    height: 4.5rem;
+    height: 4.15rem;
     width: auto;
     margin-left: .75rem;
     margin-bottom: .75rem;

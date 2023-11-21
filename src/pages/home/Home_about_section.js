@@ -19,14 +19,14 @@ function Home_about_section() {
           To me, health should be balanced and all-encompassing, weaving in an 
           ongoing dialogue of creative thought and care. 
         </p>
-        <p>
+        {/* <p>
           My body's journey with health has been one of twists and turns. Through
           my own experience, I've seen the complexities and at times 
           abstract nature of health and how to most effectively nurture it.
           I believe people are sent to earth for different reasons,
           and mine has been to help people navigate this crazy thing we 
           call life, and become their best, healthiest selves. 
-        </p>
+        </p> */}
       </div>
     </div>
   )
