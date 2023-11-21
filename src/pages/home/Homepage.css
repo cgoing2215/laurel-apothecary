@@ -77,31 +77,43 @@
 
 /*-- OFFERINGS SECTION --*/
 
+.homepage-offerings-container {
+}
+
 .homepage-offerings-headline {
     background:rgba(174, 171, 196, 0.587);
     color: rgba(207, 206, 214, 0.874);
     font-family: Abhaya Libre;
-    font-size: 4.25rem;
+    font-size: 5rem;
     font-weight: 400;
     text-align: left;
     margin: 0;
-    padding: 2.15rem 1rem;
+    padding: 2.15rem .5rem;
 }
 
 .homepage-offerings-gallery {
     background-image: url('./assets/homepage-offerings-gallery-background-img.png');
     background-size: cover;
-    height: 70vh;
     color: white;
-    display:grid;
-    grid-template-columns: 45% 45%;
-    grid-row: auto auto;
-    grid-column-gap: 10%;
-    grid-row-gap: 10%;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-column-gap: 20%;
+    grid-row-gap: 0%;
+    padding: 10% 5%;
 }
 
 .homepage-offerings-gallery h5 {
+    font-family: Quicksand;
     font-weight: 400;
+}
+
+.offering-tile {
+}
+
+.offering-tile img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 10%;
 }
 
 .homepage-offerings-button-container {
@@ -131,11 +143,11 @@
 .homepage-connect-headline  {
     color: rgba(207, 206, 214, 0.874);
     font-family: Abhaya Libre;
-    font-size: 4.25rem;
+    font-size: 5rem;
     font-weight: 400;
     text-align: right;
     margin: 0;
-    padding: 2.15rem 1rem;
+    padding: 2.15rem .5rem;
 }
 
 .homepage-connect-image-container {

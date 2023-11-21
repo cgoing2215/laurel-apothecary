@@ -1,4 +1,8 @@
 import React from 'react'
+import reikitileimage from './assets/reiki-tile-img.jpeg'
+import eventsimage from './assets/events-tile-img.jpg'
+import spiritualofferingimage from './assets/spiritualofferings-tile-img.jpg'
+import wellnesscoachingimage from './assets/wellnesscoaching-tile-img.jpg'
 
 function Homepage_offerings_section() {
   return (
@@ -8,19 +12,19 @@ function Homepage_offerings_section() {
       </h1>
       <div className='homepage-offerings-gallery'>
         <div className='offering-tile'>
-          <img alt=''/>
+          <img src={reikitileimage} alt=''/>
           <h5>Reiki</h5>
         </div>
         <div className='offering-tile'>
-          <img alt=''/>
+          <img src={eventsimage} alt=''/>
           <h5>Events</h5>
         </div>
         <div className='offering-tile'>
-          <img alt=''/>
+          <img src={spiritualofferingimage} alt=''/>
           <h5>Spiritual Offerings</h5>
         </div>
         <div className='offering-tile'>
-          <img alt=''/>
+          <img src={wellnesscoachingimage} alt=''/>
           <h5>Wellness Coaching</h5>
         </div>
       </div>
