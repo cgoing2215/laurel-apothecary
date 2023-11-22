@@ -1,6 +1,6 @@
 .header-container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     height: 5.75rem;
 }
@@ -11,3 +11,30 @@
     margin-left: .75rem;
     margin-bottom: .75rem;
 }
+
+.hamburger {
+    color: rgba(255, 255, 255, 0.638);
+    z-index: 2;
+    padding-right: 1rem;
+  }
+
+  /*-- SideBar Menu --*/
+
+  .sidebar-menu-container {
+    z-index: 1;
+    top: 0px;
+    bottom: 0px;
+    width: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background: rgb(72, 70, 90);
+  }
+
+.sidebar-menu-text {
+    color: white;
+    z-index: 2;
+    text-decoration: none;
+  }

@@ -1,10 +1,16 @@
 .App {
   text-align: center;
   overflow: hidden;
+  animation: reveal linear 1s;
 }
 
 
 #layout-container {
   background-color: #65617A;
   height: 100%;
+}
+
+@keyframes reveal {
+  from { opacity: .5; }
+  to { opacity: 1; }
 }

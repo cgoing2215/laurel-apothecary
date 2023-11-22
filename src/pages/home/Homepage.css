@@ -1,3 +1,21 @@
+/*-- ANIMATIONS --*/ 
+
+@keyframes reveal {
+    from { opacity: 0; clip-path: inset(0% 60% 0% 50%); }
+    to { opacity: 1; clip-path: inset(0% 0% 0% 0%); }
+  }
+
+.revealing-image {
+    view-timeline-name: --revealing-image;
+    view-timeline-axis: block;
+
+    animation: auto linear reveal both;
+    animation-timeline: --revealing-image;
+    animation-range: entry 25% cover 50%;
+}
+
+/*-- HEADER / HERO --*/
+
 .hero-container {
     background-image: url('./assets/homepage-hero-mobile.png');
     background-size: cover;
@@ -81,9 +99,14 @@
     color: #FFF;
     background: rgba(46, 44, 59, 0.587);
     border: 2px solid rgba(102, 94, 147, 0.00);
-    width: 50%;
+    width: 55%;
     height: 2.75rem;
     margin-left: 40%;
+}
+
+.homepage-about-button:hover {
+    background: rgba(72, 70, 90, 0.587);
+    cursor: pointer;
 }
 
 /*-- OFFERINGS SECTION --*/
@@ -151,6 +174,11 @@
     letter-spacing: 0.15rem;
 }
 
+.homepage-offerings-button-container button:hover {
+    background: rgba(72, 70, 90, 0.587);
+    cursor: pointer;
+}
+
 /*-- CONNECT SECTION --*/
 
 .homepage-connect-container {
@@ -206,4 +234,9 @@
     position: absolute;
     margin: 30rem 24%;
     overflow: hidden;
+}
+
+.homepage-connect-image-container button:hover {
+    background: rgba(72, 70, 90, 0.807);
+    cursor: pointer;
 }

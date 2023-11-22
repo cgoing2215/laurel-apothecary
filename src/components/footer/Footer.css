@@ -2,9 +2,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 8rem;
+    height: 6rem;
     background:  rgb(174, 161, 185);
-    padding: 2.75rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 0rem 1rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -12,15 +12,13 @@
 }
 
 .footer-container h4 {
-    color: #000;
+    color: #ffffff;
     font-family: Quicksand;
     font-size: 1rem;
     font-weight: 400;
-    margin-top: .5rem;
+    margin-top: .25rem;
+    text-decoration: none;
 }
 
-.social-icons img {
-    margin: 0rem .5rem;
-    width: 2rem;
-    height: 2rem;
-}
+
+
