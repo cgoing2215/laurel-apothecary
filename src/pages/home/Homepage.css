@@ -83,7 +83,7 @@
     font-weight: 400;
     text-align: left;
     margin: 0;
-    padding: 2.15rem 1rem 1.75rem 1rem;
+    padding: 2.75rem 1rem .5rem 1rem;
 }
 
 .homepage-offerings-gallery {
@@ -99,7 +99,6 @@
 
 .homepage-offerings-gallery h5 {
     font-family: Quicksand;
-    color: black;
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: .5rem;
@@ -151,13 +150,16 @@
     font-weight: 400;
     text-align: right;
     margin: 0;
-    padding: 2.15rem 1rem 1.75rem 1rem;
+    padding: 2.75rem 1rem .5rem 1rem;
 }
 
 .homepage-connect-image-container {
     background-image: url('./assets/homepage-connect-section-img.png');
     background-size: cover;
     border: .5rem solid rgba(193, 162, 160, 0.28);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
     font-family: Quicksand;
     height: 38rem;
     width: 70%;
@@ -165,21 +167,28 @@
 }
 
 .homepage-connect-image-container h3 {
-    color: #FFF;
-    font-size: 1rem;
+    color: rgb(89, 85, 107);
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
+    margin: 27% 3%;
+    align-self: center;
 }
 
 .homepage-connect-image-container button {
+    font-family: Quicksand;
+    font-size: 1.15rem;
+    font-weight: lighter;
+    line-height: 105.8%;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    height: 3rem;
     border: 2px solid rgba(57, 55, 70, 0.00);
     background: rgb(89, 85, 107);
     color: #FFF;
-    text-align: center;
-    font-size: 1.15rem;
-    font-family: Quicksand;
-    font-weight: lighter;
-    line-height: 105.8%;
-    letter-spacing: 0.25rem;
-    height: 2rem;
+    width: 80%;
+    max-width: 13rem;
+    position: absolute;
+    margin: 120% 24%;
+    overflow: hidden;
 }
