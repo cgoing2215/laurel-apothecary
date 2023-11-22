@@ -5,15 +5,6 @@
     to { opacity: 1; clip-path: inset(0% 0% 0% 0%); }
   }
 
-.revealing-image {
-    view-timeline-name: --revealing-image;
-    view-timeline-axis: block;
-
-    animation: auto linear reveal both;
-    animation-timeline: --revealing-image;
-    animation-range: entry 25% cover 50%;
-}
-
 /*-- HEADER / HERO --*/
 
 .hero-container {
@@ -50,7 +41,7 @@
 /*-- ABOUT SECTION --*/
 
 .homepage-about-container {
-    padding: 4rem .35rem 0 .35rem;
+    padding: 4.5rem .35rem 0 .35rem;
     background: linear-gradient(rgba(58, 45, 67, 0.591), rgb(101, 97, 122));
 }
 
@@ -115,11 +106,11 @@
     background: linear-gradient(rgb(101, 97, 122), rgba(174, 161, 185, 0.573));
     color: rgb(244, 243, 251);
     font-family: Abhaya Libre;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 400;
     text-align: left;
     margin: 0;
-    padding: 2.75rem 1rem .25rem 1rem;
+    padding: 5.75rem 1rem .25rem 1rem;
 }
 
 .homepage-offerings-gallery {
@@ -136,7 +127,7 @@
 
 .homepage-offerings-gallery h5 {
     font-family: Quicksand;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-top: .5rem;
     margin-bottom: 0;
@@ -163,13 +154,13 @@
 .homepage-offerings-button-container button {
     border: 2px solid rgba(102, 94, 147, 0.00);
     background: rgba(46, 44, 59, 0.587);
-    width: 60%;
-    height: 2.75rem;
+    width: 50%;
+    height: 2.25rem;
     margin: 1.5rem 1rem;
     color: #FFF;
     text-align: center;
     font-family: Quicksand;
-    font-size: 1rem;
+    font-size: .75rem;
     line-height: 105.8%;
     letter-spacing: 0.15rem;
 }
@@ -189,11 +180,11 @@
 .homepage-connect-headline  {
     color: rgba(244, 243, 251, 0.889);
     font-family: Abhaya Libre;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 400;
     text-align: right;
     margin: 0;
-    padding: 3.5rem 1.5rem .25rem 1rem;
+    padding: 5.5rem 1.5rem .25rem 1rem;
 }
 
 .homepage-connect-image-container {
@@ -211,7 +202,7 @@
 
 .homepage-connect-image-container h3 {
     color: rgb(89, 85, 107);
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     margin: 27% 3%;
@@ -220,7 +211,7 @@
 
 .homepage-connect-image-container button {
     font-family: Quicksand;
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: lighter;
     line-height: 105.8%;
     text-align: center;
