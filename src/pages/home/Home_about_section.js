@@ -28,6 +28,9 @@ function Home_about_section() {
           call life, and become their best, healthiest selves. 
         </p> */}
       </div>
+      <button className='homepage-about-button'>
+        Hear about my journey
+      </button>
     </div>
   )
 }
