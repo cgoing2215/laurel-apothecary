@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Hero() {
+function Home_hero() {
   return (
     <div className='hero-container'>
         <div className='hero-header'>
@@ -15,4 +15,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default Home_hero

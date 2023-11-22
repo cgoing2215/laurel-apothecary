@@ -41,7 +41,7 @@
 /*-- ABOUT SECTION --*/
 
 .homepage-about-container {
-    padding: 4.5rem .35rem 0 .35rem;
+    padding: 5rem .35rem 0 .35rem;
     background: linear-gradient(rgba(58, 45, 67, 0.591), rgb(101, 97, 122));
 }
 
@@ -78,7 +78,7 @@
     font-weight: 400;
     line-height: 2rem; 
     letter-spacing: 0.125rem;
-    margin: 1.75rem 1.75rem 1.5rem 1.75rem;
+    margin: 1.75rem 1.5rem 1.5rem 1.5rem;
     text-align: left;
 }
 
@@ -110,7 +110,7 @@
     font-weight: 400;
     text-align: left;
     margin: 0;
-    padding: 5.75rem 1rem .25rem 1rem;
+    padding: 5.75rem 1rem 0 1rem;
 }
 
 .homepage-offerings-gallery {
@@ -118,11 +118,12 @@
     background-size: cover;
     color: white;
     border: .5rem solid rgba(193, 162, 160, 0.28);
+    position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 5rem 0 3.5rem 0;
 }
 
 .homepage-offerings-gallery h5 {
@@ -137,13 +138,13 @@
 .offering-tile {
     width: 40%;
     max-width: 15rem;
-    padding: 3%;
+    padding: 5%;
 }
 
 .offering-tile img {
     height: auto;
     width: 100%;
-    border-radius: 10%;
+    border-radius: 5%;
     filter: saturate(50%);
 }
 
@@ -155,8 +156,10 @@
     border: 2px solid rgba(102, 94, 147, 0.00);
     background: rgba(46, 44, 59, 0.587);
     width: 50%;
-    height: 2.25rem;
-    margin: 1.5rem 1rem;
+    height: 2.5rem;
+    position: absolute;
+    left: 3%;
+    margin-top: 1rem;
     color: #FFF;
     text-align: center;
     font-family: Quicksand;
@@ -184,7 +187,7 @@
     font-weight: 400;
     text-align: right;
     margin: 0;
-    padding: 5.5rem 1.5rem .25rem 1rem;
+    padding: 9rem 1.5rem 0 1rem;
 }
 
 .homepage-connect-image-container {

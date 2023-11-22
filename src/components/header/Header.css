@@ -2,14 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5.75rem;
+    height: 6.5rem;
 }
 
 .logo-img {
     height: 4.15rem;
     width: auto;
-    margin-left: .75rem;
-    margin-bottom: .75rem;
+    margin: 1rem;
 }
 
 .hamburger {
