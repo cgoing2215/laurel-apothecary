@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import reikitileimage from './assets/reiki-tile-img.jpeg'
 import eventsimage from './assets/events-tile-img.jpg'
 import spiritualofferingimage from './assets/spiritualofferings-tile-img.jpg'
@@ -29,7 +30,9 @@ function Homepage_offerings_section() {
         </div>
       </div>
       <div className='homepage-offerings-button-container'>
-        <button>LEARN MORE</button>
+        <Link to="/services">
+          <button>LEARN MORE</button>
+        </Link>
       </div>
     </div>
   )
