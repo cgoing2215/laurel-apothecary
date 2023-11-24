@@ -24,7 +24,7 @@ function Header() {
         <Hamburger />
       </div>
       {isSidebarOpen && 
-        <div className='sidebar-menu-container'>
+        <div className='sidebar-menu-container open close'>
           <SideBarMenu/>
         </div>}
     </div>
