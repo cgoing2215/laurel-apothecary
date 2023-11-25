@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import './Header.css'
 
-function SideBarMenu() {
-  
+function SideBarMenu(props) {
+
     return (
-        <div className='sidebar-menu-text'>
+      <div className='sidebar-menu-text'>
           <nav>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
