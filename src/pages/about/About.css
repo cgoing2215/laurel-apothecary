@@ -1,23 +1,24 @@
 .about-page-container {
     margin-top: 0;
     padding-top: 0;
+    background: #b2c4a38f;
 }
 
 .about-hero-container {
     background-image: url("./assets/About-page-hero-img.jpg");
     background-size: cover;
-    height: 38rem;
+    height: 39rem;
     margin-top: 0;
 }
 
 .about-hero-container h1 {
     font-family: 'Abhaya Libre', serif;
     color: white;
-    font-size: 2.85rem;
+    font-size: 2.75rem;
     font-weight: 400;
     line-height: 105.8%;
     text-align: right;
-    padding: 2rem 1rem;
+    padding: 2rem 3% 2rem 7%;
     margin-top: 0;
 }
 
@@ -26,36 +27,89 @@
     color: white;
     font-size: 1.5rem;
     font-weight: 400;
-    text-align: left;
+    text-align: right;
     letter-spacing: 0.285rem;
-    margin: 2rem 3rem;
+    margin: 2rem 3rem 2rem 20%;
 }
 
-/*-- ABOUT CONTENT SECTION --*/
+/*-- ABOUT ME CONTENT SECTION --*/
 
-.aboutpage-container {
+.aboutme-section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
+    padding-top: 0;
 }
 
-.aboutpage-container h1 {
-    background: linear-gradient(rgb(101, 97, 122), rgba(174, 161, 185, 0.573));
+.aboutme-headshot {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.aboutme-headshot h1 {
+    background: linear-gradient(rgb(138, 138, 138), rgba(96, 99, 89, 0.573));
     color: rgb(244, 243, 251);
     font-family: Abhaya Libre;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
-    width: 100%;
-    text-align: left;
-    margin: 0;
-    padding: 5.75rem 1rem 0 1rem;
+    height: auto;
+    width: 90%;
+    padding: 1rem;
+    margin-left: 4.5rem;
+    position: relative;
+    z-index: 2;
+    top: -45%;
 }
 
-.aboutpage-headshot {
-    width: 60%;
+.aboutme-headshot img {
+    width: 70%;
     max-width: 20rem;
     height: auto;
-    margin-top: 5rem;
-    position: relative;
+    position: absolute;
+    z-index: 1;
+    border: .5rem solid rgba(137, 137, 137, 0.28);
+}
+
+.aboutme-worktogether-button {
+    font-family: Quicksand;
+    font-size: .8rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    color: #FFF;
+    background: rgba(46, 44, 59, 0.587);
+    border: 2px solid rgba(102, 94, 147, 0.00);
+    width: 55%;
+    height: 2.75rem;
+    margin-left: 40%;
+}
+
+.aboutme-text {
+    background: #515049;
+    width: 92%;
+}
+
+.aboutme-text h3 {
+    color: white;
+    font-family: Quicksand;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.aboutme-text p {
+    color: white;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    padding: 0 1rem 1rem 1rem;
 }

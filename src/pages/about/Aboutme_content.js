@@ -4,12 +4,14 @@ import aboutHeadshot from './assets/About-page-headshot.png'
 
 function Aboutme_content() {
   return (
-    <div className='aboutpage-container'>
-      <h1>
-        About Me
-      </h1>
-      <img src={aboutHeadshot} alt='lauren acone headshot' className='aboutpage-headshot'/>
-      <div className='homepage-about-text'>
+    <div className='aboutme-section'>
+      <div className='aboutme-headshot'>
+        <h1>
+          About Me
+        </h1>
+        <img src={aboutHeadshot} alt='lauren acone headshot'/>
+      </div>
+      <div className='aboutme-text'>
         <h3>Hi, I'm Lauren Elizabeth</h3>
         <p>
           I’m a reiki healer, spiritual and wellness coach 
@@ -35,7 +37,7 @@ function Aboutme_content() {
           and body in everyday life, specifically in your health.
         </p>
       </div>
-        <button className='homepage-about-button'>
+        <button className='aboutme-worktogether-button'>
           SEE HOW WE CAN WORK TOGETHER
         </button>
       <div>
