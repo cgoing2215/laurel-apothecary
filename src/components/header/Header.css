@@ -38,6 +38,10 @@
     color: rgb(48, 40, 64);
   }
 
+  .navigation-inline-container{
+    display: none;
+  }
+
   /*-- SideBar Menu --*/
 
   .sidebar-menu-container {
@@ -73,3 +77,50 @@
   .sidebar-menu-text a:hover{
     color: rgb(48, 40, 64);
   }
+
+  /* ===== Media Queries ===== */
+
+  @media (min-width: 600px) {
+    .header-container {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      height: 9.5rem;
+    }
+
+    .logo-img {
+      height: 5rem;
+      width: auto;
+      margin: 1rem 1rem;
+      transition: 0.15s;
+  }
+
+    .hamburger {
+      display: none;
+    }
+
+    .navigation-inline-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      margin-bottom: .5rem;
+    }
+
+    .navigation-inline-container a{
+      color: #FFF;
+      text-align: center;
+      font-family: Mate;
+      font-size: .9rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: none;
+      margin: .5rem 2.25rem;
+    }
+
+    .activeLink {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+}

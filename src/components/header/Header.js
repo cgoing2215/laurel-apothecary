@@ -4,6 +4,7 @@ import { Fade as Hamburger } from 'hamburger-react'
 import lalogo from "./assets/laurel-apothecary-logo.png"
 import './Header.css'
 import SideBarMenu from './SideBarMenu';
+import NavigationLine from './NavigationLine';
 
 
 function Header() {
@@ -12,7 +13,6 @@ function Header() {
     
   function toggleSidebar(){
       setIsSidebarOpen(prevState => !prevState)
-      console.log(`sidebar open set to ${isSidebarOpen}`)
   }
 
   return (
@@ -20,6 +20,7 @@ function Header() {
       <Link to="/">
         <img src={lalogo} alt='laurel apothecary logo' className='logo-img'/>
       </Link>
+      <NavigationLine />
       <div className='hamburger' onClick={toggleSidebar}>
         <Hamburger />
       </div>
