@@ -250,12 +250,17 @@
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: space-between;
+        padding: 0 1%;
+    }
+
+    .homepage-about-container h1{
+        padding: 0 2%;
     }
     
     .homepage-about-headshot {
-        width: 17rem;
+        width: 16rem;
         margin-top: 5rem;
-        left: 28%;
+        left: 29%;
     }
 
     .homepage-about-text{
@@ -268,8 +273,59 @@
     .homepage-about-button {
         width: 14rem;
         margin-top: 2.5rem;
-        margin-left: 49%;
+        margin-left: 52%;
     }
   }
+
+  @media (min-width: 980px) { 
+    .homepage-about-container h1{
+        padding: 0rem 5%;
+    }
+
+    .homepage-about-headshot {
+        width: 18rem;
+        margin-top: 6rem;
+        left: 65%;
+    }
+
+    .homepage-about-container div{
+        padding: 0rem 5%;
+    }
+
+    .homepage-about-button {
+        width: 14rem;
+    }
+  }
+
+  @media (min-width: 1240px) { 
+    .homepage-about-headshot {
+        margin-top: 2rem;
+        left: 64%;
+    }
+
+    .homepage-about-container h1{
+        padding: 0rem 8%;
+    }
+
+    .homepage-about-container div{
+        padding: 0rem 10%;
+        width: 52%;
+    }
+  }
+
+  @media (min-width: 1400px) { 
+    .homepage-about-headshot {
+        left: 58%;
+    }
+
+    .homepage-about-container h1{
+        padding: 0rem 10%;
+    }
+
+    .homepage-about-container div{
+        padding: 0rem 10%;
+    }
+  }
+
 
 
